@@ -1,0 +1,26 @@
+  The purpose of this project is to develop a web application for exams scheduling for the 
+Faculty of Electrical Engineering and Computer Science from Transilvania University. This concept 
+comes from the fact that there is currently no management system for the university exam 
+sessions and it would be very useful for streamlining the process.
+  The web pages can be accesed by multiple types of users(teachers, students, secretarial 
+staff) and have diffrenent features.
+  Students have acces to view the scheduled exams for their specialization, year, and group 
+through an interactive calendar and to search information about an exam by a specific subject.
+  Teachers have acces to the entire exams schedule and can obtain information about them 
+trough interaction with the calendar, for viewing by day, according to filtering options(subject, 
+specialization, year, group). The interface implemented for them also has other features, such as 
+adding an exam schedule by completing a form, deleting created exams, and displaying the exams 
+schedule based on the subjets taught.
+  Secretaries have acces to the entire exams schedule, but cannot perform add or delete 
+actions. An essential aspect of the secretary account is acces to the group management menu, 
+where they can make changes to groups (renaming, adding, deleting).
+  In terms of development, special attention was paid to respecting all the fundamental 
+properties that underlie the successful operation of an application. In addition, the developed 
+interface is friendly and intuitive, its functionality being accesible trough buttons and easily 
+identifiable forms. Security measures were implemented for data protection and the created 
+program is efficient, wich allows processes to be completed in the shortest time and with minimal 
+effort from the user.
+  In terms of future development opportunities, the following options can be considered:
+    • Integrating all faculties within the Transilvania University
+    • Integrating the existing database and API of the university
+    • Adding a new layer of security, such as email authentication confirmation

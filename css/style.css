@@ -1,0 +1,141 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    
+}
+
+body{
+    background-image: url(images/fundal2.jpg);
+    width:100%; 
+    
+    background-size: cover;
+    background-position: center;
+    
+     
+}
+
+.form-box{
+    width: 500px;
+    background: rgba(44, 44, 44, 0.8);
+    margin: 5% 15% auto;
+    margin-bottom:100px;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 1%;
+}
+
+h1{
+    text-align:center;
+    margin-bottom: 40px;
+}
+
+
+
+.header{
+    
+    display: flex;
+    padding:5px;
+    border-bottom:1px solid rgb(43, 42, 42);
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+
+}
+
+.welcome{
+    display: inline-block; 
+    margin-left:580px;
+    margin-top:30px;  
+    
+  
+}
+
+.bodyy{
+    display: flex;
+}
+
+.info{
+    width:500px;
+    height: 200px;
+    margin-top:170px;
+    border:1px solid rgb(7, 7, 7);
+    border-radius: 5%;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+.info p{
+    padding:20px;
+    
+
+}
+
+.input-box{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.input-box input{
+    background: transparent;
+    width: 90%;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+::placeholder{
+    color: #ccc;
+}
+
+.fa{
+    margin-right: 10px;
+}
+
+.eye{
+    position:absolute;
+}
+
+#hide1{
+    display:none;
+}
+
+.login-btn{
+    margin:40px auto 20px;
+    width: 30%;
+    display:block;
+    outline:none;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    cursor:pointer;
+    background:transparent;
+    color:#ccc;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.login-btn:hover{
+    color:rgb(159, 198, 214);
+    border: 2px solid rgb(159, 198, 214);
+    background-color:rgb(71, 70, 70);
+}
+
+
+.info{
+    display:inline-block;
+    padding: 700 100 100 100;
+}
+
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
